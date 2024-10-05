@@ -1,0 +1,20 @@
+<!-- Jimwel Valdez | WD-301 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new user by Valdez</title>
+</head>
+<body>
+    <h1>Add a new user</h1>
+    <p>Fill out the form below.</p>
+    <form action="/api/users" method="post">
+        <label>Name: </label><input type="text" name="name" id="name"><br>
+        <label>Email: </label><input type="email" name="email" id="email"><br>
+        <label>Age: </label><input type="number" name="age" id="age"><br>
+        <label>Salary: </label><input type="number" name="salary" id="salary"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
